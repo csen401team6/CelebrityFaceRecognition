@@ -20,7 +20,7 @@ def load_saved_artifacts():
     global __class_name_to_number
     global __class_number_to_name
 
-    with open("class_dictionary.json", "r") as f:
+    with open("cl.json", "r") as f:
         # load the dictionary
         __class_name_to_number = json.load(f)
 
