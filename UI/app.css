@@ -26,6 +26,9 @@
   border-style: dashed;
 }
 
+.dropzone .dz-preview.dz-error .dz-error-message {
+display: none;
+}
 
 .error {
   font-family: MerriweatherRegular;
